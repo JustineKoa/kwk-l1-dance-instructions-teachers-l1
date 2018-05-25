@@ -6,10 +6,10 @@ end
 def skip_step(direction)
   if direction.equals("left")
     puts "Lower left foot to ground."
-    # puts "Bounce left foot back up slightly, kicking it a few inches back."
-    # puts "Left, Right, Left and Left."
+    puts "Bounce left foot back up slightly, kicking it a few inches back."
+    puts "Left, Right, Left and Left."
   elsif direction.equals("right")
     puts "Lower right foot to ground."
-    # puts "Bounce right foot back up slightly, kicking it a few inches back."
-    # puts "Right, Left, Right and Right."
+    puts "Bounce right foot back up slightly, kicking it a few inches back."
+    puts "Right, Left, Right and Right."
 end
