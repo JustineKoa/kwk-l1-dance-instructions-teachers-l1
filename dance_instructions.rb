@@ -4,12 +4,12 @@ def starting_stance
 end
 
 def skip_step(direction)
-  if (direction == "left"):
+  if direction == "left" [then]
     puts "Lower left foot to ground."
     puts "Bounce left foot back up slightly, kicking it a few inches back."
     puts "Left, Right, Left and Left."
-  elsif (direction == "right"):
+  [elsif direction == "right" [then]
     puts "Lower right foot to ground."
     puts "Bounce right foot back up slightly, kicking it a few inches back."
-    puts "Right, Left, Right and Right."
+    puts "Right, Left, Right and Right."]
 end
