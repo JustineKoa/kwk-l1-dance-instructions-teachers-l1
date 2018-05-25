@@ -3,8 +3,9 @@ def starting_stance
   puts "Plant legs far apart, bend knees slightly and keep posture loose."
 end
 
-def skip_step
-  puts "Lift right foot."
-  puts "Return right foot to the ground."
-  puts "Finishing with a small skip-step backward."
+def skip_step(type)
+  if type == "left":
+    puts "Lift right foot."
+    puts "Return right foot to the ground."
+    puts "Finishing with a small skip-step backward."
 end
