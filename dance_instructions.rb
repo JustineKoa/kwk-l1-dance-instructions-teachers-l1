@@ -8,5 +8,3 @@ def skip_step_left
   puts "Return right foot to the ground."
   puts "Finishing with a small skip-step backward."
 end
-
-
